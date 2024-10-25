@@ -1,5 +1,6 @@
 {
   "name": "package",
+  "type": "module",
   "version": "1.0.0",
   "description": "First Package",
   "main": "index.js",
@@ -9,6 +10,11 @@
   "author": "Gurram Ashish",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.2"
   }
 }
