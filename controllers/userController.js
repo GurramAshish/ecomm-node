@@ -58,7 +58,9 @@ const signin = async (req, res) => {
     res.status(500).json({ message: "Something went wrong" });
   }
 };
+
 const allUsers = async (req, res) => {
-  const existingUser = await userModel.find();
+  const users = await userModel.find();
+  res.json(users);
 }
-export { signup, signin, allUsers};
+export { signup, signin, allUsers };
